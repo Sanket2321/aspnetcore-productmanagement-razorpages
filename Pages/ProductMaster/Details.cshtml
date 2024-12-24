@@ -1,0 +1,37 @@
+﻿@page
+@model CRUDRazorPages.Pages.ProductMaster.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3>Details</h3>
+<hr />
+
+<div>
+ 
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.ProductName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Qty)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Qty)
+        </dd>
+    </dl>
+</div>
+<div class="mt-2">
+    <a asp-page="./Edit" asp-route-id="@Model.Product.Id" class="btn btn-primary">Edit</a> |
+    <a asp-page="./Index" class="btn btn-success">Back to List</a>
+</div>
