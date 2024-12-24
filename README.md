@@ -2,6 +2,13 @@
 
 This project is a simple CRUD (Create, Read, Update, Delete) application built with ASP.NET Core Razor Pages. It demonstrates basic database connection, entity management, and UI integration using Razor Pages and Bootstrap.
 
+
+![Screenshot (30)](https://github.com/user-attachments/assets/e201fba8-ef3e-4dbb-819d-36d9761d5ce7)
+![Screenshot (31)](https://github.com/user-attachments/assets/385206da-d705-4402-9f49-c745c111e719)
+![Screenshot (32)](https://github.com/user-attachments/assets/ce71ec73-2b4d-47ed-8e10-b71dc93258da)
+![Screenshot (33)](https://github.com/user-attachments/assets/17abefde-5716-4bf9-a6d3-f431e44c3e04)
+![Screenshot (34)](https://github.com/user-attachments/assets/6f8db379-7d8a-4b4f-ade3-fd38a60a703f)
+
 ---
 
 ## **Features**
